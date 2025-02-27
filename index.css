@@ -1,0 +1,750 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(200, 205, 208,0.5);
+}
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+
+}
+.flipkartlogo{
+    width: 20%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+
+
+}
+.threelines{
+    height: 50px;
+    width: 50px;
+   
+    
+    
+    
+}
+.image{
+    width: 50%;
+    height: 58px;
+    background-image: url("flipkart1logo.png");
+    background-size: cover;
+    
+    margin-left: 13px;
+    
+}
+
+
+
+/* searchbox */
+.searchbox{
+   height: 70px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    font-size: 16px ;
+
+}
+.searchicon{
+    height: 38px;
+    width: 45px;
+    
+   
+    padding-right: 10px;
+    background-color: #EEF5FF;
+    padding-left: 4px;
+    padding-top: 8px;
+    color: lightgray ;
+    font-size: 16px;
+    border: 1px solid transparent;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.search{
+    height: 38px;
+    width:600px ;
+    background-color: #EEF5FF;
+    border: 1px solid transparent;
+    color: grey;
+    font-size: 16px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+
+/* loginbox */
+.login{
+    width: 50px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    font-size: 18px;
+}
+
+.login i{
+    margin-right: 10px;
+    font-size: 18px;
+}
+.loginpara{
+    font-size: 18px;
+}
+
+
+/* cartbox */
+.cartbox{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 9.5px;
+}
+.cartbox a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.carticon{
+    margin-right: 10px;
+}
+
+
+
+
+/* for seller */
+
+.seller{
+
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.shopicon{
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
+    color: black;
+    font-size: 18px;
+
+}
+
+
+.paraseller{
+    height: 30px;
+    width: 55px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 27px;
+    font-size:17px ;
+    font-weight:400 ;
+    margin-left: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.threedots{
+    width: 50px;
+    height: 40px;
+    margin-left: 165px;
+    margin-top: 21px;
+    font-size: 23px;
+    
+}
+
+
+
+
+/* heropagefirstcontainer */
+
+
+
+.heropagefirstcontainer{
+    height: 150px;
+    width: 98%;
+    margin-left: 1%;
+    
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+
+.images{
+    height: 120px;
+    width: 100px;
+    background-color:white;
+    margin-top: 20px;
+}
+
+
+.firstimage{
+    height:80px ;
+    width: 80px;
+    background-image: url("grocery.webp");
+    background-size: cover;
+    margin-left: 10px;
+}
+.secimage{
+    height:80px ;
+    width: 80px;
+    background-image: url("mobiles.webp");
+    background-size: cover;
+}
+.thirdimage{
+    height:80px ;
+    width: 80px;
+    background-image: url("fasion.webp");
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.fourthimage{
+    height:80px ;
+    width: 80px;
+    background-image: url("electronics.webp");
+    background-size: cover;
+    margin-left: 10px;
+}
+.fifthimage{
+    height:80px ;
+    width: 80px;
+    background-image: url("home.webp");
+    background-size: cover;
+    margin-left: 15px;
+}
+.five{
+    width: 120px;
+    text-align: center;
+}
+.sixthimage{
+    height:80px ;
+    width: 80px;
+    background-image: url("appliances.webp");
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.seventhimage{
+    height:80px ;
+    width: 80px;
+    background-image: url("travel.webp");
+    background-size: cover;
+
+}
+
+.eightimage{
+    height:80px ;
+    width: 80px;
+    background-image: url("toys.webp");
+    background-size: cover;
+    margin-left: 10px;
+}
+.eight{
+    width: 140px;
+    text-align: center;
+}
+
+.nineimage{
+    height: 80px;
+    width: 80px;
+    background-image: url("twowheelers.webp");
+    background-size: cover;
+}
+
+
+
+
+/* heroimage */
+
+.heroimage{
+    height: 300px;
+    width: 100%;
+    background-image: url("canonheropage.webp");
+    background-size: cover;
+    margin-top: 15px;
+}
+
+
+
+
+
+/* thirdhero */
+
+
+.thirdhero{
+
+    height: 350px;
+    width: 100%;
+
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    justify-content: space-evenly;
+
+
+
+}
+
+
+
+.heroimg1{
+
+    width: 240px;
+    height: 265px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+
+
+.firsthero{
+    height:170px;
+    width: 200px;
+    background-color: white;
+    background-image: url("slippers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-left: 15px;
+    margin-top: 15px;
+  
+
+}
+
+.secondhero{
+    height:170px;
+    width: 200px;
+    background-color: white;
+    background-image: url("womendress.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-left: 15px;
+    margin-top: 15px;
+  
+
+}
+
+.thirdheroim{
+    height:170px;
+    width: 200px;
+    background-color: white;
+    background-image: url("bags.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-left: 15px;
+    margin-top: 15px;
+  
+
+}
+.fourthhero{
+    height:170px;
+    width: 200px;
+    background-color: white;
+    background-image: url("jeans.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-left: 15px;
+    margin-top: 15px;
+  
+
+}
+.fifthhero{
+    height:170px;
+    width: 200px;
+    background-color: white;
+    background-image: url("menstshirts.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-left: 15px;
+    margin-top: 15px;
+  
+
+}
+
+.sixthhero{
+    height:170px;
+    width: 200px;
+    background-color: white;
+    background-image: url("girlstop.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-left: 15px;
+    margin-top: 15px;
+  
+
+}
+
+.heroimg1 p{
+    font-size: 17px;
+    padding-left: 2px;
+    margin-top: 5px;
+
+
+}
+
+.heroimg1 h4{
+    font-weight: 1000;
+    margin-top: 4px;
+    font-size: 18px;
+}
+.deall{
+    border: 1px solid transparent;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: antiquewhite;
+    font-size: 18px;
+    font-weight: 900;
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+
+
+
+.firstthree{
+    height: 295px;
+    display: flex;
+    width: 99%;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 1%;
+}
+
+.fir1{
+    height: 290px;
+    width: 32.5%;
+    background-image: url("valentine.webp");
+    background-size: cover;
+
+}
+
+.fir2{
+    height: 290px;
+    width: 32.8%;
+    background-image: url("salened.webp");
+    background-size: cover;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+
+.fir3{
+    height: 290px;
+    width: 32.5%;
+    background-image: url("grooming.webp");
+    background-size: cover;
+
+}
+
+
+.lastthree{
+    height: 295px;
+    display: flex;
+    width: 99%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 1%;
+}
+
+.fir4{
+    height: 290px;
+    width: 32.7%;
+    background-image: url("moto.webp");
+    background-size: cover;
+
+}
+
+.fir5{
+    height: 290px;
+    width: 32.8%;
+    background-image: url("vivo.webp");
+    background-size: cover;
+    margin-left: 1%;
+    margin-right: 1%;
+   
+
+}
+
+.fir6{
+    height: 290px;
+    width: 32.5%;
+    background-image: url("realme.webp");
+    background-size: cover;
+
+}
+
+
+.anotherthree{
+    height: 295px;
+    display: flex;
+    width: 99%;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 1%;
+
+}
+
+
+.fir7{
+    height: 290px;
+    width: 32.5%;
+    background-image: url("bluetooth.webp");
+    background-size: cover;
+
+}
+.fir8{
+    height: 290px;
+    width: 32.5%;
+    background-image: url("mattress.webp");
+    background-size: cover;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+    .fir9{
+        height: 290px;
+        width: 32.5%;
+        background-image: url("washing.webp");
+        background-size: cover;
+    
+    }
+
+
+
+
+
+
+    .bigimage{
+        height: 610px;
+        width: 100%;
+        background-color: lightgray;
+        display: flex;
+        margin-top: 10px;
+
+    }
+    .bigimagefull{
+        height: 610px;
+        width: 66%;
+        margin-left: 2%;
+        background-image: url("mobileeee.webp");
+        background-size: cover;
+    }
+
+    .box1{
+        height: 600px;
+        width: 32%;
+        background-color: white;
+        margin-left: 10px;
+        
+
+    }
+    .uppertwo{
+        height:300px ;
+        width:98% ;
+        background-color: white;
+        display: flex;
+    }
+    .upper1{
+        height:285px;
+        width: 49%;
+        background-color: white;
+        text-align: center;
+        border: 1px solid gray;
+        margin-top: 8px;
+        border-radius: 5px;
+        margin-left: 5px;
+
+    }
+    .upper1image{
+        height: 210px;
+        width:90% ;
+        background-image: url("mensshoe.jpeg");
+        
+        background-size: cover;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+    
+
+
+    .upper2{
+        height:285px;
+        width: 49%;
+        background-color: white;
+       text-align: center;
+       margin-left: 1%;
+       border: 1px solid gray;
+       margin-top: 8px;
+       border-radius: 5px;
+
+
+    }
+
+
+    .upper2image{
+        height: 210px;
+        width:90% ;
+        background-image: url("jacket.jpeg");
+        
+        background-size: cover;
+        margin-left: 4%;
+        margin-top: 10px;
+
+    }
+
+
+
+
+    .lowertwo{
+        height:300px ;
+        width:98% ;
+        background-color: white;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .lower1{
+        height:285px;
+        width: 49%;
+        background-color: white;
+        text-align: center;
+        margin-left: 1%;
+        border: 1px solid gray;
+        margin-top: 8px;
+        border-radius: 5px;
+
+    }
+
+    .lower1image{
+        height: 210px;
+        width:90% ;
+        background-image: url("bat.jpeg");
+        
+        background-size: cover;
+        margin-left: 2%;
+        margin-top: 10px;
+
+    }
+
+
+    .lower2{
+        height:285px;
+        width: 49%;
+        background-color: white;
+        text-align: center;
+        border: 1px solid gray;
+        margin-top: 8px;
+        border: 5px;
+       
+
+    }
+
+
+    .lower2image{
+        height: 210px;
+        width:90% ;
+        background-image: url("trimmer.jpeg");
+        
+        background-size: cover;
+        margin-left: 4%;
+        margin-top: 10px;
+
+    }
+
+    .box1 p{
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    .box1 h4{
+        font-size: 22px;
+    }
+
+
+
+
+    .lorem{
+        height: 400px;
+        width: 95%;
+    align-items: center;
+justify-content: center; 
+background-color: lightgray;  
+line-height: 2;
+text-align: center;
+margin-top: 10px;
+
+
+}
+
+
+
+
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer h4{
+    color: gray;
+    font-weight: 900px;
+}
+.boxx{
+    line-height: 1.5;
+}
+.im{
+    height: 150px;
+    width: 150px;
+    margin-left: 40px;
+    
+}
+.myname{
+    font-size: 18px;
+    margin-top: 5px;
+}
